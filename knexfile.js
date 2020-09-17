@@ -5,9 +5,9 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      user : 'fetchApi',
+      user : 'postgres',
       password : 'postgres',
-      database : 'postgres'
+      database : 'fetchApi'
     },
     migrations: {
       directory: path.resolve(__dirname, 'src', 'database', 'migrations'),
